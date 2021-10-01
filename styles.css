@@ -1,0 +1,56 @@
+:root {
+  color-scheme: light;
+
+  --theme-bg: #fafafa;
+  --theme-on-bg: #000000;
+  --theme-offset-bg: #bebebe;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+
+    --theme-bg: #000000;
+    --theme-on-bg: #fafafa;
+    --theme-offset-bg: #7a7a7a;
+  }
+}
+
+[color-scheme="light"] {
+  color-scheme: light;
+  --theme-bg: #fafafa;
+  --theme-on-bg: #000000;
+  --theme-offset-bg: #bebebe;
+}
+
+[color-scheme="dark"] {
+  color-scheme: dark;
+  --theme-bg: #000000;
+  --theme-on-bg: #fafafa;
+  --theme-offset-bg: #7a7a7a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: var(--theme-bg);
+  color: var(--theme-on-bg);
+  font-family: system-ui, sans-serif;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 1rem;
+}
+
+p {
+  margin: 2rem 0;
+}
+
+theme-toggle-button {
+  margin: 1rem;
+}
