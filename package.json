@@ -1,6 +1,16 @@
 {
   "name": "theme-toggle-button",
-  "version": "0.1.0",
+  "version": "0.1.0+1",
+  "author": {
+    "name": "Jaydan Urwin",
+    "email": "hello@jaydanurwin.com",
+    "url": "https://jaydanurwin.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaydanurwin/theme-toggle-button"
+  },
+  "license": "MIT",
   "main": "dist/theme-toggle-button.es.js",
   "exports": {
     ".": "./dist/theme-toggle-button.es.js"

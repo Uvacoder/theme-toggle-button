@@ -85,9 +85,7 @@ If you don't have NPM on your site enviroment or you simply prefer a CDN you can
 #### Script Tag
 
 ```html
-<script type="module">
-
-</script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/theme-toggle-button@0.1.0/dist/theme-toggle-button.es.js"></script>
 ```
 
 #### Place the button on page
