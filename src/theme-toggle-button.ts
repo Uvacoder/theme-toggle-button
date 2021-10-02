@@ -2,11 +2,6 @@ import { html, css, LitElement } from "lit";
 import { customElement, property } from "lit/decorators.js";
 import { lightThemeIcon, darkThemeIcon } from "./icons";
 
-/**
- * An example element.
- *
- * @csspart button - The button
- */
 @customElement("theme-toggle-button")
 export class ThemeToggleButton extends LitElement {
   static styles = css`
@@ -39,11 +34,11 @@ export class ThemeToggleButton extends LitElement {
     }
   `;
 
-  // set the doc element
+  // set the _doc element
   private _doc = document.firstElementChild;
 
   /**
-   * The value for the theme
+   * The theme for the website/web app 
    */
   @property({ type: String, reflect: true, attribute: "theme" })
   theme = "light";
