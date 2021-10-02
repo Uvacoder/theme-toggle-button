@@ -38,13 +38,16 @@ export class ThemeToggleButton extends LitElement {
   private _doc = document.firstElementChild;
 
   /**
-   * The theme for the website/web app 
+   * The theme for the website/web app
    */
   @property({ type: String, reflect: true, attribute: "theme" })
   theme = "light";
 
   render() {
-    return html`<button @click=${this._toggleTheme}>
+    return html`<button
+      @click=${this._toggleTheme}
+      title=${`Enable ${this.theme === "dark" ? "Light" : "Dark"} Theme`}
+    >
       ${this.theme === "dark"
         ? html`${lightThemeIcon}`
         : html`${darkThemeIcon}`}
