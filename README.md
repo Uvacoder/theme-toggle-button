@@ -67,7 +67,7 @@ To install the web component on your website you also have choices. If you have 
 #### Import the package
 
 ```js
-import 'theme-toggle-button';
+import '@jaydanurwin/theme-toggle-button';
 ```
 
 #### Place the button on page
@@ -86,7 +86,7 @@ If you don't have NPM on your site enviroment or you simply prefer a CDN you can
 
 ```html
 <script type="module">
-  import 'https://cdn.skypack.dev/theme-toggle-button'
+  import 'https://cdn.skypack.dev/@jaydanurwin/theme-toggle-button'
 </script>
 ```
 
