@@ -54,6 +54,12 @@ Below is an example of what your CSS variables and media query *could* look like
   --theme-on-bg: #fafafa;
   --theme-offset-bg: #7a7a7a;
 }
+
+/* Important! Be sure to use the variables on your body tag */
+body {
+  background-color: var(--theme-bg);
+  color: var(--theme-on-bg);
+}
 ```
 
 ### NPM Package Usage
