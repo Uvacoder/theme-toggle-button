@@ -62,7 +62,7 @@ To install the web component on your website you also have choices. If you have 
 
 #### Install the NPM Package
 
-`npm i theme-toggle-button`
+`npm i @jaydanurwin/theme-toggle-button`
 
 #### Import the package
 
