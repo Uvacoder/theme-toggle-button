@@ -13,11 +13,6 @@
 1. `npm i`
 2. `npm start`
 
-## How to build the package file
-
-1. `npm i`
-2. `npm run build`
-
 ## How to use the web component 
 
 ### CSS Setup
@@ -102,3 +97,7 @@ If you don't have NPM on your site enviroment or you simply prefer a CDN you can
 <theme-toggle-button></theme-toggle-button>
 ```
 
+## How to build a bundled package file
+
+1. `npm i`
+2. `npm run build`
