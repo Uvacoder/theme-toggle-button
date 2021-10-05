@@ -1,17 +1,15 @@
 # theme-toggle-button Lit Web Component
 
-## Links
-
-
-## Prerequisites
-
-- Node.js Environment (12+)
-- NPM (6.0+)
+## [Watch the YouTube Tutorial]()
 
 ## Run the Demo
 
 1. `npm i`
 2. `npm start`
+
+## Attributes
+
+- `remember-setting` - This will use localStorage to remember what the user set as their preference. If this isn't set on the component it will default back to automatic CSS theme preference detection.
 
 ## How to use the web component 
 

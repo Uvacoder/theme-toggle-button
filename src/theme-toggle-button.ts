@@ -38,10 +38,14 @@ export class ThemeToggleButton extends LitElement {
   private _doc = document.firstElementChild;
 
   /**
-   * The theme for the website/web app
+   * The theme for the website the component is being used on
    */
   @property({ type: String, reflect: true, attribute: "theme" })
   theme = "light";
+
+
+  @property({type: Boolean, reflect: true, attribute: 'remember-setting' })
+  rememberSetting = false;
 
   render() {
     return html`<button
@@ -92,7 +96,9 @@ export class ThemeToggleButton extends LitElement {
       this.theme = "light";
       this._doc!.setAttribute("color-scheme", "light");
     }
-    localStorage.setItem("theme", `${this.theme}`);
+    if(this.rememberSetting) {
+      localStorage.setItem("theme", `${this.theme}`);
+    }
   }
 }
 
