@@ -1,6 +1,6 @@
 # theme-toggle-button Lit Web Component
 
-## [Watch the YouTube Tutorial]()
+## [Watch the YouTube Tutorial](https://youtu.be/dL9KlnnWOhI)
 
 ## Run the Demo
 
