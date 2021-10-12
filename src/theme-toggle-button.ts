@@ -2,6 +2,8 @@ import { html, css, LitElement } from "lit";
 import { customElement, property } from "lit/decorators.js";
 import { lightThemeIcon, darkThemeIcon } from "./icons";
 
+export const tagName = "theme-toggle-button"
+
 @customElement("theme-toggle-button")
 export class ThemeToggleButton extends LitElement {
   static styles = css`
